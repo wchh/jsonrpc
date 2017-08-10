@@ -160,28 +160,30 @@ json 返回
 ```json
 {
 	"id":123,
-	"result": {[
-		{
-			"who": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T",
-			"type": 0,
-			"coin":{
-				"amount": 1000, 
-				"symbol": "RMB"
+	"result": {
+		"list": [
+			{
+				"who": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T",
+				"type": 0,
+				"coin":{
+					"amount": 1000, 
+					"symbol": "RMB"
+				},
+				"time": 12345677,
+				"recipient": ""
 			},
-			time: 12345677,
-			"recipient": ""
-		},
-		{
-			"who": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T",
-			"type": 1,
-			"coin":{
-				"amount": 1000, 
-				"symbol": "USD"
-			},
-			time: 12345677,
-			"recipient": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T"
-		}
-	]},
+			{
+				"who": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T",
+				"type": 1,
+				"coin":{
+					"amount": 1000, 
+					"symbol": "USD"
+				},
+				"time": 12345677,
+				"recipient": "EoJ6t3d9T4FfNwkjznRHybH1AzBahuV2JZhSsCA1e88T"
+			}
+		]
+	},
 	"error":null
 }
 ```
